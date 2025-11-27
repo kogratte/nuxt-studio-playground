@@ -7,7 +7,9 @@ export default defineNuxtConfig({
     "@nuxt/eslint",
     "@nuxt/image",
     "@nuxt/content",
+    "@nuxt/ui",
     "nuxt-studio",
+    "@nuxtjs/i18n",
   ],
   nitro: {
     prerender: {
@@ -15,6 +17,34 @@ export default defineNuxtConfig({
       routes: ["/"],
       // Then crawl all the links on the page
       crawlLinks: true,
+    },
+  },
+  studio: {
+    auth: {
+      github: {
+        clientId: "",
+        clientSecret: "",
+      },
+    },
+  },
+  css: ["~/assets/css/main.css"],
+  i18n: {
+    locales: [
+      { code: "en", name: "English", language: "en-US" },
+      { code: "fr", name: "French", language: "fr-FR" },
+    ],
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: "i18n_redirected",
+      redirectOn: "root",
+    },
+    strategy: "prefix",
+    defaultLocale: "en",
+  },
+  content: {
+    preview: {
+      // force module initialization on dev env
+      dev: true,
     },
   },
 });

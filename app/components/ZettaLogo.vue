@@ -1,0 +1,70 @@
+<template>
+  <svg
+    version="1.1"
+    class="zetta-logo invert"
+    viewBox="0 0 250.23111 260.7565"
+    sodipodi:docname="Screenshot 2025-11-26 at 14.20.14.png"
+    inkscape:export-filename="Screenshot 2025-11-26 at 14.20.14.svg"
+    inkscape:export-xdpi="96"
+    inkscape:export-ydpi="96"
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:svg="http://www.w3.org/2000/svg"
+  >
+    <defs id="defs1" />
+    <sodipodi:namedview
+      id="namedview1"
+      pagecolor="#ffffff"
+      bordercolor="#000000"
+      borderopacity="0.25"
+      inkscape:showpageshadow="2"
+      inkscape:pageopacity="0.0"
+      inkscape:pagecheckerboard="0"
+      inkscape:deskcolor="#d1d1d1"
+      inkscape:zoom="0.84012063"
+      inkscape:cx="22.6158"
+      inkscape:cy="113.079"
+      inkscape:window-width="1272"
+      inkscape:window-height="719"
+      inkscape:window-x="158"
+      inkscape:window-y="127"
+      inkscape:window-maximized="0"
+      inkscape:current-layer="layer1"
+    />
+    <g
+      inkscape:groupmode="layer"
+      inkscape:label="Logo"
+      style="display: inline"
+      transform="translate(-100.62495,-37.008766)"
+    >
+      <g id="g2" inkscape:label="Logo" style="fill: #000000">
+        <path
+          id="rect2"
+          style="
+            font-variation-settings: &quot;wght&quot; 600;
+            display: inline;
+            fill: #000000;
+            stroke: #000000;
+            stroke-width: 2.89134;
+          "
+          d="m 103.34835,254.81311 83.80882,-79.23993 60.2923,-0.32559 -78.20805,79.03078 137.42317,-0.58088 -0.4878,-49.83054 -60.30416,-0.59061 40.14697,-39.91286 62.87898,-0.005 c 0,0 0.41603,122.69561 0.51177,132.24735 0.004,0.39541 -0.31834,0.71378 -0.71377,0.71378 H 103.34835 c -0.39544,0 -0.71378,-0.31835 -0.71378,-0.71378 v -40.07907 c 0,-0.39543 0.31834,-0.71378 0.71378,-0.71378 z"
+          sodipodi:nodetypes="sccccccccsssssss"
+        />
+        <path
+          id="rect1"
+          style="
+            font-variation-settings: &quot;wght&quot; 600;
+            display: inline;
+            fill: #000000;
+            stroke: #000000;
+            stroke-width: 2.89134;
+          "
+          d="m 102.78443,39.257942 c 239.78574,-1.346169 33.59501,0.373095 246.59673,-0.795552 v 37.758876 l -23.39465,27.868074 c -0.25424,0.30286 -34.28329,33.22694 -34.67375,33.16442 l -58.76508,-0.59498 49.41319,-50.889874 -136.28037,-0.23962 1.58882,48.424844 60.46577,-1.01694 -38.5738,43.24914 -65.19393,-0.71335 -1.89671,-135.501258 c -0.004,-0.39541 0.31835,-0.71156 0.71378,-0.71378 z"
+          sodipodi:nodetypes="sccssccccccccs"
+          inkscape:label="rect1"
+        />
+      </g>
+    </g>
+  </svg>
+</template>

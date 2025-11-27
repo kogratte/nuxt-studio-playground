@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="360px" height="120px" viewBox="0 0 360 120" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <title>Zettascale Technologies – 2025 Logo</title>
+  <g id="Zettascale-Logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <!-- Monogram -->
+    <path d="M44 20 L96 20 L96 32 L68 32 L96 100 L96 100 L44 100 L44 88 L72 88 L44 20 Z 
+             M64 20 L64 32 L92 100 L92 88 L64 88 L64 100 L44 100 L96 20 Z" 
+          fill="#0A1E3A" id="ZS-monogram"/>
+    
+    <!-- Wordmark -->
+    <text x="116" y="74" font-family="Satoshi, Inter, system-ui, -apple-system, sans-serif" 
+          font-weight="700" font-size="44" fill="#0A1E3A" letter-spacing="-0.5">Zettascale</text>
+    <text x="116" y="100" font-family="Satoshi, Inter, system-ui, -apple-system, sans-serif" 
+          font-weight="500" font-size="18" fill="#0A1E3A" letter-spacing="0">Technologies</text>
+    
+    <!-- Optional cyan accent version of the monogram (uncomment to use) -->
+    <!--
+    <path d="M44 20 L96 20 L96 32 L68 32 L96 100 L44 100 L44 88 L72 88 L44 20 Z 
+             M64 20 L64 32 L92 100 L92 88 L64 88 L64 100 L44 100 L96 20 Z" 
+          fill="url(#cyanGradient)" opacity="0.9"/>
+    <defs>
+      <linearGradient id="cyanGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#00E5FF"/>
+        <stop offset="100%" stop-color="#0099FF"/>
+      </linearGradient>
+    </defs>
+    -->
+  </g>
+</svg>
