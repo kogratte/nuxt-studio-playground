@@ -20,11 +20,12 @@ export default defineNuxtConfig({
     },
   },
   studio: {
-    auth: {
-      github: {
-        clientId: "",
-        clientSecret: "",
-      },
+    repository: {
+      provider: "github", // 'github' or 'gitlab'
+      owner: "kogratte", // your GitHub/GitLab username or organization
+      repo: "nuxt-studio-playground", // your repository name
+      branch: "main", // the branch to commit to (default: 'main')
+      private: false,
     },
   },
   css: ["~/assets/css/main.css"],
@@ -44,7 +45,7 @@ export default defineNuxtConfig({
   content: {
     preview: {
       // force module initialization on dev env
-      dev: true,
+      api: "https://api.nuxt.studio",
     },
   },
 });
